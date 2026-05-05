@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-image: url('tu-imagen.jpg'); /* Reemplaza con tu imagen */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: brightness(0.7);
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .text-container {
+            max-width: 800px;
+            font-size: 1.8rem;
+            line-height: 1.8;
+            font-weight: 500;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+
+        /* Animación de aparición y movimiento */
+        .fragment {
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: aparecer 0.8s ease forwards;
+        }
+
+        @keyframes aparecer {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Retrasos para que aparezcan uno tras otro */
+        .f1 { animation-delay: 0.1s; }
+        .f2 { animation-delay: 0.25s; }
+        .f3 { animation-delay: 0.4s; }
+        .f4 { animation-delay: 0.55s; }
+        .f5 { animation-delay: 0.7s; }
+        .f6 { animation-delay: 0.85s; }
+        .f7 { animation-delay: 1.0s; }
+        .f8 { animation-delay: 1.15s; }
+        .f9 { animation-delay: 1.3s; }
+        .f10 { animation-delay: 1.45s; }
+        .f11 { animation-delay: 1.6s; }
+        .f12 { animation-delay: 1.75s; }
+        .f13 { animation-delay: 1.9s; }
+        .f14 { animation-delay: 2.05s; }
+        .f15 { animation-delay: 2.2s; }
+        .f16 { animation-delay: 2.35s; }
+        .f17 { animation-delay: 2.5s; }
+        .f18 { animation-delay: 2.65s; }
+        .f19 { animation-delay: 2.8s; }
+        .f20 { animation-delay: 2.95s; }
+        .f21 { animation-delay: 3.1s; }
+        .f22 { animation-delay: 3.25s; }
+        .f23 { animation-delay: 3.4s; }
+        .f24 { animation-delay: 3.55s; }
+        .f25 { animation-delay: 3.7s; }
+        .f26 { animation-delay: 3.85s; }
+        .f27 { animation-delay: 4.0s; }
+        .f28 { animation-delay: 4.15s; }
+        .f29 { animation-delay: 4.3s; }
+        .f30 { animation-delay: 4.45s; }
+        .f31 { animation-delay: 4.6s; }
+        .f32 { animation-delay: 4.75s; }
+        .f33 { animation-delay: 4.9s; }
+        .f34 { animation-delay: 5.05s; }
+        .f35 { animation-delay: 5.2s; }
+        .f36 { animation-delay: 5.35s; }
+        .f37 { animation-delay: 5.5s; }
+        .f38 { animation-delay: 5.65s; }
+        .f39 { animation-delay: 5.8s; }
+        .f40 { animation-delay: 5.95s; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .text-container {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <div class="text-container">
+            <span class="fragment f1">Te</span>
+            <span class="fragment f2">amo</span>
+            <span class="fragment f3">sin</span>
+            <span class="fragment f4">saber</span>
+            <span class="fragment f5">cómo,</span>
+            <span class="fragment f6">ni</span>
+            <span class="fragment f7">cuándo,</span>
+            <span class="fragment f8">ni</span>
+            <span class="fragment f9">desde</span>
+            <span class="fragment f10">dónde.</span>
+            <br>
+            <span class="fragment f11">Te</span>
+            <span class="fragment f12">amo</span>
+            <span class="fragment f13">simplemente,</span>
+            <span class="fragment f14">sin</span>
+            <span class="fragment f15">problemas</span>
+            <span class="fragment f16">ni</span>
+            <span class="fragment f17">orgullo:</span>
+            <br>
+            <span class="fragment f18">te</span>
+            <span class="fragment f19">amo</span>
+            <span class="fragment f20">así</span>
+            <span class="fragment f21">porque</span>
+            <span class="fragment f22">no</span>
+            <span class="fragment f23">conozco</span>
+            <span class="fragment f24">otra</span>
+            <span class="fragment f25">forma</span>
+            <span class="fragment f26">de</span>
+            <span class="fragment f27">amar</span>
+            <span class="fragment f28">sino</span>
+            <span class="fragment f29">esta</span>
+        </div>
+    </div>
+</body>
+</html>
